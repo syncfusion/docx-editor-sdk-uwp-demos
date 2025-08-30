@@ -74,7 +74,7 @@ namespace Syncfusion.SampleBrowser.UWP.RichTextEditor
 
             if (e.PrelaunchActivated == false)
             {
-                SampleHelper.UWPText = "Edit, format, and generate professional Word documents in native UWP app using Syncfusion’s Word Editor SDK.";
+                SampleHelper.UWPText = "Edit, format, and generate professional Word documents in native UWP app using Syncfusion’s DOCX Editor SDK.";
                 new SamplesConfiguration();
                 if (rootFrame.Content == null)
                 {
