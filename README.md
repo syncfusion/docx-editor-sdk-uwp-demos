@@ -1,1 +1,1 @@
-# word-editor-sdk-uwp-demos
+# docx-editor-sdk-uwp-demos
