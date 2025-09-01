@@ -1,2 +1,0 @@
-Syncfusion.SfRichTextBoxAdv.UWP
-Syncfusion.SampleBrowser.UWP.RichTextEditor
