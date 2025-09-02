@@ -11,7 +11,7 @@
     <AssemblyName>Syncfusion.SampleBrowser.UWP.RichTextEditor</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.26100.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -163,7 +163,10 @@
   </Target>
   -->
   <ItemGroup>
-    
+    <ProjectReference Include="..\Common\Syncfusion.SampleBrowser.UWP.Common.csproj">
+      <Project>{b5e6c92f-fe6a-4c36-b985-9902cff58957}</Project>
+      <Name>Syncfusion.SampleBrowser.UWP.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -243,17 +246,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Syncfusion.SampleBrowser.UWP.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SampleBrowser\Assemblies\Syncfusion.SampleBrowser.UWP.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="Syncfusion Controls for UWP XAML, Version=14.1.0.41">
-      <Name>Syncfusion Controls for UWP XAML</Name>
-    </SDKReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="RTE\Assets\GettingStarted.docx">
@@ -706,6 +698,18 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.SfColorPickers.UWP">
+      <Version>*</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.SfInput.UWP">
+      <Version>*</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.SfRibbon.UWP">
+      <Version>*</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.UWP">
+      <Version>*</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
