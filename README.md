@@ -1,4 +1,4 @@
-# Syncfusion® DOCX Editor SDK UWP Demos 
+# Syncfusion® DOCX Editor SDK UWP Demos  
 
 This repository contains the demos of [Syncfusion DOCX Editor SDK for UWP](https://www.syncfusion.com/uwp-ui-controls/richtextbox). This is the best place to check our UWP DOCX  Editor control to get more insight about the usage of APIs. The UWP DOCX Editor SDK in which you can edit, format and generate professional Word documents in native UWP application.
 This section guides you to use the Syncfusion UWP samples in your applications.
