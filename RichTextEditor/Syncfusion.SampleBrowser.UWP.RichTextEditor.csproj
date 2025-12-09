@@ -210,6 +210,20 @@
     </Content>
     <EmbeddedResource Include="RTE\Assets\Letter.docx" />
     <None Include="Syncfusion.SampleBrowser.UWP.RichTextEditor_TemporaryKey.pfx" />
+    <PackageReference Include="Syncfusion.SampleBrowser.UWP.Common" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfAccordion.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfInput.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfShared.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfTabControl.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.Licensing" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.DocIO.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfBusyIndicator.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfRadialMenu.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfColorPickers.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfTreeNavigator.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfRibbon.UWP" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.UWP" Version="31.2.12" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml">
@@ -244,12 +258,8 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Syncfusion.SampleBrowser.UWP.Common" Version="31.2.2." />
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="Syncfusion Controls for UWP XAML, Version=31.2.2">
-      <Name>Syncfusion Controls for UWP XAML</Name>
-    </SDKReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="RTE\Assets\GettingStarted.docx">
